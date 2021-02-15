@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logoImg from "./assets/images/logo.svg";
 import Search from "../search";
 import "./assets/scss/header.scss";
@@ -19,7 +20,8 @@ export default function Index() {
             <div className="auth-menu float-right">
               <ul>
                 <li>
-                  <a href="#">Register</a>
+                  <Link to="/signup">Register</Link>
+                  <a href="#"></a>
                 </li>
                 <li>
                   <a href="#">Sign In</a>

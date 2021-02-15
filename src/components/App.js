@@ -1,12 +1,26 @@
+import Home from "../pages/home";
+import Signup from "../pages/signup";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./header";
-import Posts from "./posts";
 import "../assets/scss/global.scss";
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Posts/>
+      <Router>
+        <Switch>
+          <Route path="/signup">
+            <Signup/>
+          </Route>
+          <Route path="/" exact={true}>
+            <Home/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

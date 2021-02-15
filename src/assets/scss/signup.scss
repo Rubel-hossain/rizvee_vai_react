@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.page-header {
+  h2 {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 44px;
+  }
+}
+
+.signup-form {
+  position: relative;
+  font-family: SFUIDisplay;
+  color: #0d0321;
+  font-size: 18px;
+  input {
+    border-radius: 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom-color: rgba(#979797, 0.25);
+
+    &:focus {
+      box-shadow: none;
+      border-bottom-color: rgba(#8ae38c, 1);
+    }
+  }
+  .input-wrapper {
+    position: relative;
+    width: 100%;
+    input {
+      &:focus {
+        &:before {
+          background-color: #8ae38c;
+        }
+      }
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 0;
+      height: 90%;
+      width: 4px;
+      background-color: #e4e4e4;
+      border-radius: 2px;
+    }
+    select {
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+      border-radius: 0;
+      max-width: 100px;
+      &:focus {
+        box-shadow: none;
+        border-bottom-color: rgba(#8ae38c, 1);
+      }
+    }
+  }
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #8ae38c;
+    border: 0;
+    height: 50px;
+    font-family: SFDisplayB;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0d0321;
+    font-weight: 500;
+  }
+}
