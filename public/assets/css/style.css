@@ -19,16 +19,12 @@ body {
   font-family: SFUIDisplay;
   src: url("assets/fonts/SFDisplay-Light.woff2") format("woff2"),
     url("assets/fonts/SFDisplay-Light.woff2") format("woff");
-  font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
   font-family: SFUIDisplayl;
   src: url("assets/fonts/SFDisplay-Ultralight.woff2") format("woff2"),
     url("assets/fonts/SFDisplay-Ultralight.woff2") format("woff");
-  font-weight: 300;
-  font-style: normal;
 }
 
 @font-face {
@@ -56,14 +52,14 @@ body {
   font-family: "SFDisplay-Semibold";
   src: url("assets/fonts/SFDisplay-Semibold.woff2") format("woff2"),
     url("assets/fonts/SFDisplay-Semibold.woff2") format("woff");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "SFDisplay-Heavy";
   src: url("assets/fonts/SFDisplay-Heavy.woff2") format("woff2"),
     url("assets/fonts/SFDisplay-Heavy.woff2") format("woff");
-  font-weight: normal;
+  font-weight: 800;
   font-style: normal;
 }
 }

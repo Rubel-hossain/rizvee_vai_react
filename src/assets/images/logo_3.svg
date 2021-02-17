@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 3</title>
+    <defs>
+        <polygon id="path-1" points="0 0 29 0 29 29 0 29"></polygon>
+    </defs>
+    <g id="Desktop-Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login-V2" transform="translate(-527.000000, -799.000000)">
+            <g id="Group-3" transform="translate(527.000000, 799.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M14.5000976,0 L0,0 L0,14.4999024 L9.91921811,14.4999024 C9.91667957,11.8904862 9.90711126,9.45837682 9.88445974,7.74174304 C9.8598555,5.86147154 8.46991132,4.77400327 8.46991132,4.77400327 L14.5000976,4.76111534 L14.5008787,4.76111534 L14.5008787,4.77400327 L22.7247477,4.77400327 L22.7247477,11.8260466 C22.7247477,11.8260466 20.8011258,8.00106389 17.9595316,8.00106389 L14.5008787,8.00106389 L14.5008787,14.4987307 L18.8378639,11.4034785 L18.8378639,14.4999024 L18.8378639,17.8767364 L14.5024409,14.4999024 L14.5008787,14.4999024 L14.5008787,16.4139559 L14.5008787,29 L29,29 L29,14.4999024 L29,0 L14.5000976,0 Z" id="Fill-1" fill="#03061A" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
